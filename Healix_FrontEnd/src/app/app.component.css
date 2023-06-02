@@ -1,0 +1,19 @@
+.buttons{
+  margin-top: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.view-button,
+  .add-button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+  }
+
+  
+  .view-button:hover,
+  .add-button:hover {
+    opacity: 0.8;
+  }

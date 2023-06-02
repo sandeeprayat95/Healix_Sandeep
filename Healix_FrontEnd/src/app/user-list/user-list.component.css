@@ -1,0 +1,19 @@
+.users-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  td, th {
+    padding: 10px;
+    border-bottom: 1px solid green;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
